@@ -50,6 +50,13 @@ nav {
 
 main {
   background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.500);
 }
 
 main h1 {
@@ -59,6 +66,16 @@ main h1 {
 
 main h2 {
   font-family: var(--android-font);
+}
+
+main img {
+  width: 100%;  
+}
+
+main img.small {
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 footer {
