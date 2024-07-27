@@ -91,6 +91,31 @@ main h1 {
 
 main h2 {
   font-family: var(--android-font);
+  font-size: 1.3em;
+  color: var(--color5);
+  background-image: linear-gradient(to right, var(--color2), transparent);
+}
+
+main p {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+main strong {
+  color: var(--color5);
+  font-weight: bold;
+}
+
+main a {
+  text-decoration: none;
+  background-color: var(--color2);
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+main a:hover {
+  text-decoration: underline;
 }
 
 main img {
@@ -98,7 +123,7 @@ main img {
 }
 
 main img.small {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
 }
